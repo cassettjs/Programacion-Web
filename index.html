@@ -3,67 +3,46 @@
 <head>
     <title>Mi Presentación</title>
     <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .tarjeta {
+            background: white;
+            width: 350px;
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            transition: all 0.3s ease;
+        }
+        .nombre {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 32px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+
+    </style>
 </head>
 <body>
     
-    <h1>Hacerca de Mi</h1>
-    <h2>Nombre: Carlos Alberto Diaz Meza</h2>
-
-    <hr>
-
-
-    <h1>Presentación</h1>
-    Soy de la CDMX, estudiante de ing.Sistemas Computacionales</p>
-
-
-    <h3>Mis hobbies (Lista numerada)</h3>
-    <ol>
-        <li>Leer</li>
-        <li>Programar</li>
-        <li>Escuchar música</li>
-        <li>Caminar</li>
-    </ol>
+    <div class="tarjeta">
+        <h1 class="nombre">Carlos Diaz</h1>
+        <h2 class="titulo">Estudiante en Ingenieria en Sistemas Computacionales</h2>
+        <p class="descripcion">Estudiante en formacion, me llamo carlos diaz soy originario de la CDMX, en una alcalfia al sur que se llama Milpa Alta, actualmente estoy estudiando en el TecNM</p>
+        <div class="contacto">
+            <p>📧 martealbuenarte@gmail.com</p>
+            <p>📱 +52 5636980108</p>
+        </div>
+    </div>
 
 
-    <h3>Mis comidas favoritas (Lista sin numeración)</h3>
-    <ul>
-        <li>Mole xd</li>
-        <li>Tacos</li>
-        <li>Tamales de mole</li>
-    </ul>
-
-    <h3>Horario de clases</h3>
-    <table border="1">
-        <tr>
-            <th>Día</th>
-            <th>Actividad</th>
-        </tr>
-        <tr>
-            <td>Lunes</td>
-            <td>Estudiar HTML</td>
-        </tr>
-        <tr>
-            <td>Martes</td>
-            <td>Practicar ejercicios de progra</td>
-        </tr>
-        <tr>
-
-            <td>Miercoles</td>
-            <td>Jugar</td>
-
-        </tr>
-    </table>
-
-    <h3>Juego favorito </h3>
-    <img src="/Programacion-Web/img/hollow.jpg" alt="Hollow Night" >
-    <h3>Actividad Favorita</h3>
-    <img src="/Programacion-Web/img/senderismo.jpg" alt="senderismo">
-
-
-    <h3>Git Hub</h3>
-    <p>Visita <a href="https://cassettjs.github.io/Programacion-Web/" target="_blank">GitHub</a></p>
-
-    <hr>
-    <p>Creado con en HTML básico</p>
 </body>
 </html>
